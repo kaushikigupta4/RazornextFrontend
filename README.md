@@ -1,8 +1,21 @@
 # React + Vite
+1)To run and set up project locally on your system, follow these steps:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Step 1: Clone the Repository
+git clone https://github.com/kaushikigupta4/RazornextFrontend
+cd RazornextFrontend
 
-Currently, two official plugins are available:
+step 2:Install Dependencies
+npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+step 3:Run the Development Server
+npm run dev
+
+Your app will be available at http://localhost:3000
+
+
+2)List of third-party libraries used:
+
+Axios:Simpler syntax than Fetch API and automatic JSON parsing made API requests cleaner.
+React Icons: Lightweight and easy-to-use icon library, used for UI enhancements.
+React Router DOM: For client-side routing and dynamic category/product detail pages.
